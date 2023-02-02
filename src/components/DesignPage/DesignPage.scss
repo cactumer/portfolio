@@ -1,0 +1,82 @@
+.design {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    letter-spacing: 0.02rem;
+    font-weight: 600;
+    
+    .tab-menu {
+        background-color: rgba(207, 212, 225, 0.5);
+
+        li {
+            display: flex;
+            padding: 15px 50px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            font-size: 16px;
+            cursor: pointer;
+
+            &:first-child {
+                margin: 120px 0 10px;
+                font-weight: 700;
+                color: #8F93A1;
+                cursor: default;
+            }
+
+            .list-icon {
+                margin-right: 12px;
+                color: #579BB1;
+            }
+        }
+    }
+
+    .tab-content {
+        width: 100%;
+        overflow-y: scroll;
+
+        .container {
+            width: 100%;
+            max-width: 1270px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            column-gap: 5px;
+            row-gap: 5px;
+            margin: 166px auto 0;
+
+            .item {
+                position: relative;
+                cursor: pointer;
+
+                &:hover {
+                    img {
+                        transition: 0.5s;
+                        filter: brightness(0.6);
+                    }
+
+                    .title {
+                        display: block;
+                    }
+                }
+
+                .title {
+                    position: absolute;
+                    bottom: 15px;
+                    left: 15px;
+                    display: none;
+                    color: #FAF8F1;
+                }
+
+                img {
+                    display: block;
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 5px;
+                    object-fit: cover;
+                }
+
+            }
+        }
+    }
+}

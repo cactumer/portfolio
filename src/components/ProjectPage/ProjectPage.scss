@@ -1,0 +1,102 @@
+.project-page {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    
+    .tab-menu {
+        background-color: rgba(207, 212, 225, 0.5);
+    
+        li {
+            display: flex;
+            padding: 15px 50px; 
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            font-size: 16px;
+            font-weight: 500;
+            cursor: pointer;
+            font-weight: 600;
+
+            &:first-child {
+                margin: 120px 0 10px;
+                font-weight: 700;
+                color: #8F93A1;
+                cursor: default;
+            }
+
+            .list-icon {
+                margin-right: 12px;
+                color: #579BB1;
+            }
+        }
+    }
+
+    .tab-content {
+        width: 100%;
+        margin: 110px auto auto;
+        display: flex;
+        flex-direction: column;
+
+        .img-cover {
+            margin-bottom: 40px;
+            
+            img {
+                display: block;
+                width: 100%;
+                height: 550px;
+                object-fit: cover;
+            }
+        }
+
+        .des-wrapper {
+            max-width: 1200px;
+            margin: 0 auto;
+
+            .title {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin-bottom: 10px;
+
+                h3 {
+                    font-size: 32px;
+                    font-weight: 700;
+                    margin-right: 15px;
+                }
+
+                .btn-wrapper {
+                    font-size: 13px;
+                    font-weight: 700;
+
+                    .btn {
+                        padding: 10px 20px;
+                        border: 1px solid #000;
+                        border-radius: 5px;
+                        transition: 0.3s;
+                        margin-left: 20px;
+                        letter-spacing: 0.06rem;
+
+                        &:active {
+                            scale: 0.97;
+                        }
+                    }
+                }
+            }
+
+            .tools {
+                font-size: 16px;
+                margin-bottom: 30px;
+                opacity: 0.8;
+            }
+
+            .des {
+                line-height: 3rem;
+                font-size: 16px;
+                font-weight: 500;
+                white-space: pre-wrap;
+            }
+        }
+
+    }
+
+}

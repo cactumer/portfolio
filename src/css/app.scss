@@ -1,0 +1,17 @@
+// * {
+//     outline: 1px solid #f00;
+// }
+
+body {
+    background-color: #F8F4EA;
+    // background-color: #f8f4f3;
+    user-select: none;
+    letter-spacing: 0.02rem;
+}
+
+.Wrapper {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background: url(../../public/images/dot_bg.png) no-repeat center center/cover;
+}

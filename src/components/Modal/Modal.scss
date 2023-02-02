@@ -1,0 +1,176 @@
+.modal-area {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(29, 28, 36, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .modal {
+        width: 800px;
+        height: 600px;
+        background: url(../../../public/images/home_bg.png) no-repeat center center/cover;
+        // background-color: #f5f5f5;
+        border-radius: 10px;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        color: #222;
+
+        .modal-header {
+            position: relative;
+            background-color: #F3F4F4;
+            height: 55px;
+            text-align: center;
+            box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.4);
+
+            .close {
+                position: relative;
+                background-color: #EC6B5E;
+                color: #EC6B5E;
+                border-radius: 50%;
+                position: absolute;
+                top: 50%;
+                right: 0;
+                transform: translateY(-50%);
+                margin-right: 15px;
+                width: 14px;
+                height: 14px;
+
+                .xi-close-min {
+                    font-size: 16px;
+                    font-weight: 900;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    transition: 0.3s;
+                }
+
+                &:hover {
+                    color: #333;
+                }
+            }
+        }
+
+        .modal-body {
+            padding: 50px;
+            overflow-y: scroll;
+            -ms-overflow-style: none;
+            font-size: 16px;
+          
+            &::-webkit-scrollbar {
+                display: none;
+            }
+
+            .box {
+                display: flex;
+                margin-bottom: 60px;
+            }
+
+            h3 {
+                text-align: right;
+                min-width: 180px;
+                font-size: 20px;
+                font-weight: 800;
+                margin-right: 50px;
+            }
+
+            .intro {
+                padding: 0 30px;
+                font-weight: 700;
+
+                .intro-des {
+                    // text-align: center;
+                    margin: 0 auto;
+
+                    .pov {
+                        margin-bottom: 30px;
+
+                        .eng {
+                            font-size: 17px;
+                            font-weight: 900;
+                            // color: #F8F4EA;
+                            letter-spacing: 0.03rem;
+
+                            span {
+                                color: #F55050;
+                            }
+                        }
+                    }
+
+                    .des {
+                        line-height: 2.6rem;
+                    }
+                }
+            }
+
+            .education {
+                font-weight: 600;
+
+                .edu-list {
+                    li {
+                        font-size: 15px;
+                        margin-bottom: 20px;
+                        line-height: 2rem;
+                    }
+                }
+            }
+
+            .skills {
+                font-weight: 700;
+
+                .title {
+                    display: block;
+                    margin-bottom: 25px;
+                    font-size: 16px;
+                    font-weight: 700;
+                    letter-spacing: 0.03rem;
+                }
+
+                .front-end {
+                    margin-bottom: 50px;
+                }
+
+                .svg-wrppaer {
+                    display: flex;
+                    text-align: center;
+                    font-size: 13px;
+                    letter-spacing: 0.02rem;
+
+                    div {
+                        margin-right: 40px;
+                    }
+
+                    img {
+                        display: block;
+                        width: 50px;
+                        height: 50px;
+                        margin: 0 auto 15px;
+                    }
+                }
+            }
+
+            .archive {
+                img {
+                    display: block;
+                    width: 25px;
+                    height: 25px;
+                    margin-right: 12px;
+                }
+
+                .github {
+                    display: flex;
+                    align-items: center;
+                    font-size: 14px;
+                    font-weight: 800;
+                    letter-spacing: 0.3rem;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

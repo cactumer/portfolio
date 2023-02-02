@@ -1,0 +1,41 @@
+.preview {
+    position: absolute;
+    top: 100px;
+    right: 0;
+    max-width: 280px;
+    width: 100%;
+    height: calc(100vh - 100px);
+    overflow-y: scroll;
+    background-color: #F8F4EA;
+    -ms-overflow-style: none;
+    font-family: "Pretendard Variable", Pretendard, -apple-system, "Noto Sans KR",
+        sans-serif;
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+
+    .item {
+        max-width: 230px;
+        width: 100%;
+        height: 130px;
+        margin: 0 auto 45px;
+        text-align: center;
+        font-weight: 500;
+        cursor: pointer;
+
+        img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+        .img-title {
+            font-size: 14px;
+            font-weight: 600;
+        }
+    }
+}

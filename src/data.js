@@ -49,10 +49,10 @@ const RD = [
     id: 5,
     title: "2023 Portfolio",
     description:
-      "본 프로젝트는 React를 이용하여 메인화면, 프로젝트, 웹 퍼블리싱, 모달창 등으로 구성된 포트폴리오 페이지입니다. Netlify로 배포 후 수정하고 있습니다. (각각의 프로젝트들의 부족한 부분들은 계속해서 수정중입니다... 감사합니다.)",
+      "본 프로젝트는 React를 이용하여 메인화면, 프로젝트, 웹 퍼블리싱, 모달창 등으로 구성된 포트폴리오 페이지입니다. Netlify로 배포 후 수정하고 있습니다. (각각의 프로젝트의 부족한 부분들은 계속해서 수정중입니다... 감사합니다.)",
     tools: "react / react-router-dom / scss / netlify",
-    url: "https://zoseeee.github.io/portfolio/",
-    github: "",
+    url: "https://2023-portfolio.netlify.app/",
+    github: "https://github.com/zoseeee/portfolio",
   },
 ];
 

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./ProjectPage.scss";
 import { motion } from "framer-motion";
 
-const ProjectPage = ({RD}) => {
+const ProjectPage = ({ RD }) => {
   const [index, setIndex] = useState(0);
 
   const variants = {
@@ -73,7 +73,7 @@ const ProjectPage = ({RD}) => {
                 </button>
                 <button
                   className="btn"
-                  onClick={() => window.open(`${item.url}`, "_blank")}
+                  onClick={() => window.open(`${item.github}`, "_blank")}
                 >
                   Github Code
                 </button>

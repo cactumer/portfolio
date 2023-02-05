@@ -22,7 +22,7 @@ const RD = [
     id: 2,
     title: "Youtube Clone",
     description:
-      "본 프로젝트는 React를 이용하여 인기 동영상, 검색, 동영상 재생 등의 기능을 담은 YouTube 클론 코딩 페이지입니다. Youtube Api를 사용하여 원하는 영상을 검색할 수 있으며, 현재 대한민국 인기 동영상 20개의 리스트를 얻어와 메인화면에 구현하였습니다",
+      "본 프로젝트는 React를 이용하여 인기 동영상, 검색, 동영상 재생 등의 기능을 담은 YouTube 클론 코딩 페이지입니다. Youtube Api를 사용하여 원하는 영상을 검색할 수 있으며, 현재 대한민국 인기 동영상 20개의 리스트를 얻어와 메인화면에 구현하였습니다.",
     tools: " react / css / axios / youtube api ",
     url: "https://zoseeee.github.io/YouTube/",
     github: "https://github.com/zoseeee/YouTube",

@@ -8,7 +8,7 @@ const data = [
   {
     id: 0,
     title: "MY\nPROJECT",
-    tit: "clone & ideas",
+    tit: "clone & idea",
     path: "project",
   },
   {

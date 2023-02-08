@@ -4,7 +4,7 @@
 <br>
 
 * [배포 사이트](https://2023-portfolio.netlify.app/) 
-* `react-router`를 사용하여 메인화면, 프로젝트, 웹 퍼블리싱, 모달창 등으로 구성된 포트폴리오 페이지입니다.
+* `react-router`를 사용하여 메인화면, 프로젝트, 웹 퍼블리싱, 모달창 등으로 구성된 포트폴리오 페이지입니다. (반응형 추가 예정입니다.)
 
 <img src="./public/images/github01.png" alt=" " />
 

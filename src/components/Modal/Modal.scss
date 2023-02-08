@@ -12,9 +12,7 @@
     .modal {
         width: 800px;
         height: 600px;
-        // background: url(../../../public/images/home_bg.png) no-repeat center center/cover;
-        // background-color: #f5f5f5;
-        background-color: #EDE4E0;
+        background-color: #F5F5DC;
         border-radius: 10px;
         overflow: hidden;
         display: flex;
@@ -23,8 +21,7 @@
 
         .modal-header {
             position: relative;
-            // background-color: #F3F4F4;
-            background-color: #C8DBBE;
+            background-color: #C3ACD0;
             height: 55px;
             text-align: center;
             box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.4);
@@ -86,7 +83,6 @@
                 font-weight: 700;
 
                 .intro-des {
-                    // text-align: center;
                     margin: 0 auto;
 
                     .pov {
@@ -95,7 +91,6 @@
                         .eng {
                             font-size: 17px;
                             font-weight: 900;
-                            // color: #F8F4EA;
                             letter-spacing: 0.03rem;
 
                             span {

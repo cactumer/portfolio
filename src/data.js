@@ -40,7 +40,7 @@ const RD = [
     id: 4,
     title: "Golden Snitch!",
     description:
-      "본 프로젝트는 Javascript로 만든 간단한 미니 게임입니다. 영화 <Harry Potter> 속 퀴티치 경기를 테마로 만들었습니다. 15초의 시간이 주어지고 시간 내에 골든 스니치 10개를 클릭하면 성공하는 아주 간단한 게임입니다. ",
+      "본 프로젝트는 Javascript로 만든 미니 게임입니다. 영화 <Harry Potter> 속 퀴티치 경기를 테마로 만들었습니다. 15초의 시간이 주어지고 시간 내에 골든 스니치 10개를 클릭하면 성공하는 아주 간단한 게임입니다. ",
     tools: " javascript / css  ",
     url: "https://zoseeee.github.io/mini-game/",
     github: "https://github.com/zoseeee/mini-game",

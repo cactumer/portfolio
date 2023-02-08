@@ -20,18 +20,6 @@ const RD = [
   },
   {
     id: 2,
-<<<<<<< HEAD
-=======
-    title: "Youtube Clone",
-    description:
-      "본 프로젝트는 React를 이용하여 인기 동영상, 검색, 동영상 재생 등의 기능을 담은 YouTube 클론 코딩 페이지입니다. Youtube Api를 사용하여 원하는 영상을 검색할 수 있으며, 현재 대한민국 인기 동영상 20개의 리스트를 얻어와 메인화면에 구현하였습니다.",
-    tools: " react / css / axios / youtube api ",
-    url: "https://zoseeee.github.io/YouTube/",
-    github: "https://github.com/zoseeee/YouTube",
-  },
-  {
-    id: 3,
->>>>>>> b37132ae7e4cc5f30ffaeb9dde281f996a648298
     title: "Card Maker",
     description:
       "본 프로젝트는 React를 이용하여, 홈, 로그인, 카드 편집, 등록, 미리보기 등으로 구성되어있습니다. 최근 재밌게 보았던 영화 ‘everything everywhere all at once’ 를 테마로 만든 프로젝트입니다. Firebase를 통해 로그인이 가능하도록 하였고 사용자의 정보를 Firebase의 Realtime Database와 Cloudinary에서 실시간 등록 및 수정이 가능하도록 하였습니다.",
@@ -48,7 +36,6 @@ const RD = [
     url: "https://zoseeee.github.io/YouTube/",
     github: "https://github.com/zoseeee/YouTube",
   },
-
   {
     id: 4,
     title: "Golden Snitch!",

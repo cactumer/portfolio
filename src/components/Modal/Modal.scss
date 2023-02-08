@@ -100,6 +100,7 @@
                     }
 
                     .des {
+                        font-size: 15px;
                         line-height: 2.6rem;
                     }
                 }
@@ -152,20 +153,25 @@
             }
 
             .archive {
-                img {
-                    display: block;
-                    width: 25px;
-                    height: 25px;
-                    margin-right: 12px;
-                }
-
-                .github {
+                .archive-detail {
                     display: flex;
-                    align-items: center;
-                    font-size: 14px;
-                    font-weight: 800;
-                    letter-spacing: 0.3rem;
-                    cursor: pointer;
+                    gap: 50px;
+
+                    img {
+                        display: block;
+                        width: 25px;
+                        height: 25px;
+                        margin-right: 12px;
+                    }
+    
+                    .github, .notion {
+                        display: flex;
+                        align-items: center;
+                        font-size: 14px;
+                        font-weight: 800;
+                        letter-spacing: 0.3rem;
+                        cursor: pointer;
+                    }
                 }
             }
         }

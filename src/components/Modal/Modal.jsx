@@ -54,24 +54,22 @@ const Modal = ({ setModalOpen }) => {
               </div>
               <p className="des">
                 안녕하세요, 저는 실패를 원동력으로 꾸준히 성장하는 프론트엔드
-                개발자 이정응입니다.
+                개발자 이정은입니다.
                 <br />
                 저는 ❝ 도전은 반드시 자신의 세계를 넓히게 마련이다. ❞ 라는 말을
-                좋아합니다. <br /> 새로운 지식과 기술을 배우고, 응용하고, 공유하여 저의 개발 세계를 넓히고자
-                노력하고 있습니다.
+                좋아합니다. 성실히 배우고 꾸준히 성장하여 저의 개발
+                세계를 넓히고자 노력하고 있습니다.
               </p>
             </div>
           </div>
           <div className="education box">
             <h3>EDUCATION</h3>
             <ul className="edu-list">
-              <li>Udemy The Web Developer Bootcamp | 2021</li>
-              <li>Nomad Coder Vanilla JavaScript Course | 2021</li>
-              <li>Kimbug HTML / CSS Course | 2021</li>
+              <li>Kimbug HTML / CSS Course | 2022</li>
               <li>
-                Green Computer Academy Web Frontend and Design Course | 2021
+                Green Computer Academy Web Frontend and Design Course | 2022
               </li>
-              <li>Dream Coding Academy React JavaScript Course | 2021</li>
+              <li>Dream Coding Academy React JavaScript Course | 2022</li>
             </ul>
           </div>
           <div className="skills box">
@@ -152,6 +150,18 @@ const Modal = ({ setModalOpen }) => {
                   alt=""
                 />
                 <span className="name">GITHUB</span>
+              </div>
+              <div
+                className="notion"
+                onClick={() =>
+                  window.open("https://github.com/zoseeee", "_blank")
+                }
+              >
+                <img
+                  src={process.env.PUBLIC_URL + "/images/notion.png"}
+                  alt=""
+                />
+                <span className="name">NOTION</span>
               </div>
             </div>
           </div>

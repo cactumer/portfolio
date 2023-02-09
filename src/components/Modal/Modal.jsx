@@ -151,7 +151,7 @@ const Modal = ({ setModalOpen }) => {
                 />
                 <span className="name">GITHUB</span>
               </div>
-              <div
+              {/* <div
                 className="notion"
                 onClick={() =>
                   window.open("https://github.com/zoseeee", "_blank")
@@ -162,7 +162,7 @@ const Modal = ({ setModalOpen }) => {
                   alt=""
                 />
                 <span className="name">NOTION</span>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

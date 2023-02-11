@@ -18,7 +18,7 @@ const LoadingPage = () => {
   }, [num]);
 
   return (
-    <div className="loadingPage sec">
+    <div className="loadingPage">
       <div className="loading-word">{DB[num]}</div>
       <div className="Loading" data-text="LOADING">
         LOADING <i class="xi-spinner-2 xi-spin"></i>

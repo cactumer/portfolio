@@ -32,7 +32,10 @@ const App = () => {
 
   // LoadingPage 포함
   return load === true ? (
-    <LoadingPage />
+    <>
+      <LoadingPage />
+      <Header RD={reactItems} DB={designItems} />
+    </>
   ) : (
     <div className="Wrapper">
       <Header RD={reactItems} DB={designItems} />
@@ -44,16 +47,16 @@ const App = () => {
     </div>
   );
 
-  return (
-    <div className="Wrapper">
-      <Header RD={reactItems} DB={designItems} />
-      <Routes>
-        <Route path="/" element={<Main />} />
-        <Route path="/project" element={<ProjectPage RD={reactItems} />} />
-        <Route path="/javascript" element={<DesignPage DB={designItems} />} />
-      </Routes>
-    </div>
-  );
+  // return (
+  //   <div className="Wrapper">
+  //     <Header RD={reactItems} DB={designItems} />
+  //     <Routes>
+  //       <Route path="/" element={<Main />} />
+  //       <Route path="/project" element={<ProjectPage RD={reactItems} />} />
+  //       <Route path="/javascript" element={<DesignPage DB={designItems} />} />
+  //     </Routes>
+  //   </div>
+  // );
 };
 
 export default App;

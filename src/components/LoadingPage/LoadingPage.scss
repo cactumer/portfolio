@@ -2,7 +2,7 @@
     width: 100%;
     height: 100vh;
     background-color: #F8F4EA;
-    color: #609EA2;
+    color: #DDD089;
 
     .loading-word {
         position: absolute;
@@ -10,7 +10,9 @@
         left: 50%;
         transform: translate(-50%, -50%);
         font-size: 200px;
-        font-weight: 900;
+        font-weight: 700;
+        font-family: 'Rubik Bubbles', cursive;
+        letter-spacing: 1rem;
     }
 
     .Loading {
